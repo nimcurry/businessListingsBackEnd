@@ -1,0 +1,2 @@
+-- to migrate the existing database into models.py, run following command:
+python3 manage.py inspectdb --database=default > businesslistings/models.py
