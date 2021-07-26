@@ -1,2 +1,21 @@
+installation steps:
+1. install pip with following command:
+python3 -m pip install --user --upgrade pip
+2. install virtualenvironment
+python3 -m pip install --user virtualenv
+3. create a virtual enviornment
+python3 -m venv venv
+4. source the virtual enviornment:
+source venv/bin/activate
+5. install django
+pip install django
+6. install django framework
+pip install djangorestframework
+7. once done run the following command:
+python3 manage.py runserver
+8. install the pscygopg2:
+pip install psycopg2 
+9. if you get the error on cors-headers, run the following command:
+pip install django-cors-headers
 -- to migrate the existing database into models.py, run following command:
 python3 manage.py inspectdb --database=default > businesslistings/models.py
